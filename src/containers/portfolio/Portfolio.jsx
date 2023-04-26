@@ -5,6 +5,7 @@ import rustic from '../../assets/thumbs/rusticrootslogo1.png';
 import luxxe from '../../assets/thumbs/Luxxe.png';
 import batty from '../../assets/thumbs/bblogo1.png';
 import artbeat from '../../assets/thumbs/artbeat.png';
+import Certs from '../../components/certs/Certs';
 
 
 const Portfolio = () => {
@@ -17,6 +18,9 @@ const Portfolio = () => {
         <a href="#" target="_blank" rel="noreferrer"><img src={luxxe} alt="Luxxe Gallery"></img></a>
         <a href="#" target="_blank" rel="noreferrer"><img src={batty} alt="Batty Brigade"></img></a>
         <a href="#" target="_blank" rel="noreferrer"><img src={artbeat} alt="ArtBeat"></img></a>
+      </div>
+      <div>
+        <Certs />
       </div>
     </div>
   )
