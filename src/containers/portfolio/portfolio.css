@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  }
+
+.port {
+  background-color: #000000;
+  padding: 1rem;
+}
+
+.port h1 {
+  color: #FFFFFF;
+  padding-bottom: 1rem;
+}
+
+.app-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 9px;
+  align-items: center;
+
+}
+
+.app-links img {
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 5px;
+}
