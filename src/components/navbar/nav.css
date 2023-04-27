@@ -5,23 +5,18 @@
     text-decoration: none;
     box-sizing: border-box;
   }
-  .App {
-    font-family: var(--font-family2);
-    width: 100%;
-    min-height: 100vh;
-  }
-  
-  .App .navbar {
+
+  .navbar {
     width: 85%;
     max-height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000;
-    background: #ffffff;
+    color: #FFFFFF;
   }
   
-  .App .navbar .nav-links {
+  .navbar .nav-links {
+    font-family: var(--font-family2);
     font-weight: 700;
     font-size: 18px;
     line-height: 21.04px;
@@ -30,8 +25,14 @@
     list-style: none;
   }
   
-  .App .navbar .nav-links>a{
-    color: #000000;
+  .navbar .nav-links>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem 1rem;
+  }
+
+  .navbar .nav-links>a:hover{
+    color: red;
     text-decoration: none;
     padding: 1rem 1rem;
   }
