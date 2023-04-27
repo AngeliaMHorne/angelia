@@ -3,173 +3,78 @@
     margin: 0;
     scroll-behavior: smooth;
     text-decoration: none;
-    }
-
-.certs_container {
-    background-color: #000000;
+  }
+  
+  .certs_container {
+    background-color: #FFFFFF;
     display: flex;
-    justify-content: space-evenly;
-    color: #FFFFFF;
-}
-
-.certs_container h1 {
-    font-family: var(--font-family1);
-    color: #FFFFFF;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .certs_container h1 {
     font-weight: 500;
-    font-size: 33px;
-    line-height: 40px;
-    margin-top: 0;
-}
-
-.certs-google {
-    display: flex 0 2 auto;
-    justify-content: space-evenly;
-    margin-left: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #FFFFFF;
-}
-
-.certs-google h1 {
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 40px;
-    margin-top: 0;
-}
-
-.certs-google h2 {
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    font-weight: 200;
     font-size: 18px;
+    line-height: 40px;
+    margin-top: 0;
+  }
+  
+  .certs-google,
+  .certs-meta,
+  .certs-calarts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 3rem;
+  }
+  
+  .certs-google ul,
+  .certs-meta ul,
+  .certs-calarts ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 0;
+  }
+  
+  .certs-google h2,
+  .certs-meta h2,
+  .certs-calarts h2 {
+    font-weight: 200;
+    font-size: 16px;
     line-height: 40px;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-
-.certs-meta {
-    display: flex 0 2 auto;
-    justify-content: space-evenly;
-    margin-left: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #FFFFFF;
-}
-
-.certs-meta h1 {
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 40px;
-    margin-top: 0;
-}
-
-.certs-meta h2{
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 40px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.certs-calarts {
-    display: flex 0 2 auto;
-    justify-content: space-evenly;
-    margin-left: 3rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: #FFFFFF;
-}
-
-.certs-calarts h1 {
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 40px;
-    margin-top: 0;
-}
-
-.certs-calarts h2{
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    font-weight: 200;
-    font-size: 18px;
-    line-height: 40px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-@media screen and (max-width: 1050px) {
+  }
+  
+  @media screen and (max-width: 1050px) {
     .certs_container {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
+      flex-direction: column;
+      align-items: center;
     }
-
-    .about-content {
-        margin: 2rem 3rem 1rem 5rem;
+  
+    .certs-google,
+    .certs-meta,
+    .certs-calarts {
+      margin: 2rem;
     }
-
-    .about-image {
-        display: flex;
-        gap: 50px;
-        max-width: 100%;
-        justify-content: center;
-        align-items: center;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .certs-google,
+    .certs-meta,
+    .certs-calarts {
+      margin: 2rem;
     }
-}
-
-@media screen and (max-width: 650px) {
-    .certs_container {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
+  }
+  
+  @media screen and (max-width: 490px) {
+    .certs-google,
+    .certs-meta,
+    .certs-calarts {
+      margin: 2rem 1rem;
     }
-
-    .about-content {
-        margin: 2rem 3rem 1rem;
-    }
-
-    .about-image {
-        display: flex;
-        gap: 5px;
-        max-width: 76%;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 490px) {
-    .certs_container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: flex-start;
-    }
-
-    .about-content {
-        margin: 2rem 2rem 1rem 1rem;
-        width: 100%;
-    }
-
-    .about-content p {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21.04px;
-        padding-right: 1.5rem;
-    }
-
-    .about-image {
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 75%;
-        justify-content: center;
-        align-content: flex-end;
-    }
-}
+  }

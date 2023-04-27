@@ -1,0 +1,80 @@
+/* Global styles */
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+  }
+  
+  /* Portfolio section styles */
+  .apps {
+    background-color: #000000;
+    padding: 1rem;
+    color: #FFFFFF;
+  }
+  
+  .apps h1 {
+    font-family: var(--font-family1);
+    color: #FFFFFF;
+    padding-bottom: 1.5rem;
+  }
+  
+  /* Slideshow styles */
+  .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .slideshow-container img {
+    cursor: pointer;
+    display: block;
+    max-width: 100%;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  /* Slideshow buttons styles */
+  .slideshow-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .slideshow-buttons button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .slideshow-buttons button:hover {
+    background-color: #FF0000;
+    color: #FFFFFF;
+  }
+  
+  /* Media queries for responsiveness */
+  @media only screen and (min-width: 768px) {
+    .slideshow-container {
+      max-width: 768px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .slideshow-container {
+      max-width: 992px;
+    }
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .slideshow-container {
+      max-width: 1200px;
+    }
+  }

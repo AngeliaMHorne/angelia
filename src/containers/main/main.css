@@ -4,3 +4,23 @@
   scroll-behavior: smooth;
   text-decoration: none;
   }
+
+  main {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  main img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+  main p {
+    max-width: 45%;
+  }

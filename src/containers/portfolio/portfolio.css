@@ -1,31 +1,20 @@
+/* Global styles */
 * {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
   text-decoration: none;
-  }
-
-.port {
-  background-color: #000000;
-  padding: 1rem;
-  color: #FFFFFF;
 }
 
-.port h1 {
-  color: #FFFFFF;
+/* Portfolio section styles */
+.portfolio {
+  padding: 1rem;
+}
+
+.portfolio h1 {
   padding-bottom: 1rem;
 }
 
-.app-links {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 9px;
-  align-items: center;
-
-}
-
-.app-links img {
-  max-height: 150px;
-  max-width: 150px;
-  border-radius: 5px;
+.portfolio h2 {
+  padding-bottom: 1rem;
 }
