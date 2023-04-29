@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import logo2 from '../../assets/Rectangle.png';
+import logo2 from '../../assets/logo.png';
 import "./footer.css";
 
 const Footer = () => {
@@ -21,7 +21,7 @@ const Footer = () => {
           Copyright 2023 Angelia Horne
         </div>
         <div className="footer_container_logo">
-          <img src={logo2} alt="Little Lemon" />
+          <img src={logo2} alt="Angelia Horne" />
         </div>
       </div>
     </div>
