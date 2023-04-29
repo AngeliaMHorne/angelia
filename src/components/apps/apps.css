@@ -13,27 +13,31 @@
     color: #FFFFFF;
   }
   
-  .apps h1 {
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    padding-bottom: 1.5rem;
+  .apps h2 {
+    padding-bottom: 1rem;
   }
   
   /* Slideshow styles */
   .slideshow-container {
     position: relative;
     max-width: 100%;
-    height: 200px;
+    height: 350px;
     margin: 0 auto;
     overflow: hidden;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
   }
   
   .slideshow-container img {
     cursor: pointer;
     display: block;
     max-width: 100%;
-    height: 200px;
+    height: 300px;
     margin: 0 auto;
+    padding: 1rem;
+    border: var(--color-peach);
+    border-style: groove;
+    border-radius: 20px;
   }
   
   /* Slideshow buttons styles */
@@ -56,7 +60,8 @@
     background-color: var(--color-sage);
     color: #000000;
     border: none;
-    padding: 0.5rem 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 0.5rem .5rem;
     border-radius: 5px;
     cursor: pointer;
     pointer-events: all;

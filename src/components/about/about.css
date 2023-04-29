@@ -12,29 +12,17 @@
 }
 
 .about-content h1{
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 33px;
     line-height: 40px;
     margin-top: 0;
 }
 
 .about-content h2{
-    font-family: var(--font-family1);
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 28px;
     line-height: 40px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 .about-content p{
-    font-family: var(--font-family2);
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 18px;
     line-height: 21.04px;
     margin-top: 1rem;
     padding-left: 20px;
@@ -91,8 +79,6 @@
     }
 
     .about-content p {
-        font-weight: 500;
-        font-size: 14px;
         line-height: 21.04px;
     }
 

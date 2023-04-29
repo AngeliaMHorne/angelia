@@ -6,18 +6,18 @@
   }
   
   .certs {
-    background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
 
-  .certs h1 {
+  .certs h2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    font-family: var(--font-family1);
+    padding: 2rem;
   }
   
   .certs-google,
@@ -33,22 +33,27 @@
   .certs-google h1,
   .certs-meta h1,
   .certs-calarts h1 {
-    font-family: var(--font-family2);
-    font-weight: 300;
-    font-size: 18px;
     line-height: 40px;
-    margin-top: 0;
+    margin-top: 0px;
+    padding: 1rem;
   }
   
   .certs-google h2,
   .certs-meta h2,
   .certs-calarts h2 {
-    font-family: var(--font-family1);
-    font-weight: 200;
-    font-size: 16px;
     line-height: 40px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .certs-google p,
+  .certs-meta p,
+  .certs-calarts p {
+    line-height: 40px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
   }
   
   @media screen and (max-width: 1050px) {
@@ -62,6 +67,12 @@
     .certs-calarts {
       margin: 2rem;
     }
+
+    .certs-google h1,
+    .certs-meta h1,
+    .certs-calarts h1 {
+      line-height: 40px;
+    }
   }
   
   @media screen and (max-width: 650px) {
@@ -70,6 +81,12 @@
     .certs-calarts {
       margin: 2rem;
     }
+
+    .certs-google h1,
+    .certs-meta h1,
+    .certs-calarts h1 {
+      line-height: 40px;
+    }
   }
   
   @media screen and (max-width: 490px) {
@@ -77,5 +94,11 @@
     .certs-meta,
     .certs-calarts {
       margin: 2rem 1rem;
+    }
+
+    .certs-google h1,
+    .certs-meta h1,
+    .certs-calarts h1 {
+      line-height: 40px;
     }
   }

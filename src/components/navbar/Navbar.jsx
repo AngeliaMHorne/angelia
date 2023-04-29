@@ -14,7 +14,7 @@ const Navbar = () => {
           <img src={logo} alt="Angelia" />
         </div>
         <div className="my_name">
-          <h1>Angelia Horne</h1>
+          <h6>Angelia Horne</h6>
         </div>
         <nav className="ll__navbar-links_container">
           <div className="navbar">

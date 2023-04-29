@@ -18,7 +18,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer_copyright">
-          Copyright 2023 Angelia Horne
+          &copy; 2023 Angelia Horne
         </div>
         <div className="footer_container_logo">
           <img src={logo2} alt="Angelia Horne" />

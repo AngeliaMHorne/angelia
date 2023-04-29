@@ -26,10 +26,21 @@
 
   h1 {
     font-family: var(--font-family1);
+    color: var(--color-peach);
+    font-size: 22px;
   }
 
   h2 {
     font-family: var(--font-family2);
+    color: var(--color-tan);
+    font-size: 22px;
+    text-decoration: underline;
+  }
+
+  h6 {
+    font-family: var(--font-family1);
+    color: var(--color-peach);
+    font-size: 22px;
   }
 
   ul {
@@ -38,4 +49,10 @@
 
   p {
     font-family: var(--font-family2);
+    color: var(--color-sage);
+  }
+
+  button {
+    font-family: var(--font-family1);
+    font-size: 18px;
   }

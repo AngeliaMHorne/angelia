@@ -60,17 +60,17 @@ function Apps() {
 
   return (
     <div className="apps">
-        <h1>
+        <h2>
           Apps
-        </h1>
-      <div className="slideshow-container">
-        <a href={currentImage.link} target={currentImage.target} rel={currentImage.rel}>
-          <img src={currentImage.src} alt={currentImage.alt} />
-        </a>
-        <div className="slideshow-buttons">
-          <button onClick={handlePrevClick}>Prev</button>
-          <button onClick={handleNextClick}>Next</button>
-        </div>
+        </h2>
+        <div className="slideshow-container">
+          <a href={currentImage.link} target={currentImage.target} rel={currentImage.rel}>
+            <img src={currentImage.src} alt={currentImage.alt} />
+          </a>
+            <div className="slideshow-buttons">
+              <button onClick={handlePrevClick}>Prev</button>
+              <button onClick={handleNextClick}>Next</button>
+            </div>
       </div>
     </div>
   );
