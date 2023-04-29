@@ -2,7 +2,7 @@ import React from 'react'
 
 function Certs() {
   return (
-    <div className="certs_container">
+    <div className="certs">
         <h1>Certifications</h1>
         <div className="certs-google">
             <h1> Google UX Design Specialization</h1>

@@ -5,19 +5,19 @@
     text-decoration: none;
   }
   
-  .certs_container {
+  .certs {
     background-color: #FFFFFF;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  
-  .certs_container h1 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 40px;
-    margin-top: 0;
+
+  .certs h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family1);
   }
   
   .certs-google,
@@ -30,10 +30,10 @@
     margin: 2rem 3rem;
   }
   
-  .certs-google ul,
-  .certs-meta ul,
-  .certs-calarts ul {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  .certs-google h1,
+  .certs-meta h1,
+  .certs-calarts h1 {
+    font-family: var(--font-family2);
     font-weight: 300;
     font-size: 18px;
     line-height: 40px;
@@ -43,6 +43,7 @@
   .certs-google h2,
   .certs-meta h2,
   .certs-calarts h2 {
+    font-family: var(--font-family1);
     font-weight: 200;
     font-size: 16px;
     line-height: 40px;

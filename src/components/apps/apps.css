@@ -23,7 +23,7 @@
   .slideshow-container {
     position: relative;
     max-width: 100%;
-    height: auto;
+    height: 200px;
     margin: 0 auto;
     overflow: hidden;
   }
@@ -44,19 +44,43 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
+    background-color: transparent;
   }
   
+  .slideshow-container:hover .slideshow-buttons {
+    height: auto;
+    pointer-events: none;
+  }
   .slideshow-buttons button {
-    background-color: #FFFFFF;
+    background-color: var(--color-sage);
     color: #000000;
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;
+    pointer-events: all;
   }
   
   .slideshow-buttons button:hover {
-    background-color: #FF0000;
+    background-color: var(--color-peach);
+    color: #000000;
+  }
+  
+  .slideshow-buttons button:active {
+    background-color: var(--color-sage);
+    color: #FFFFFF;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover {
+    background-color: var(--color-peach);
+    color: #FFFFFF;
+  }
+  
+  .prev-button:active,
+  .next-button:active {
+    background-color: var(--color-brown);
     color: #FFFFFF;
   }
   

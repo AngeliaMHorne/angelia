@@ -64,7 +64,9 @@ function Apps() {
           Apps
         </h1>
       <div className="slideshow-container">
-        <img src={currentImage.src} alt={currentImage.alt} onClick={() => window.location.href = currentImage.link} />
+        <a href={currentImage.link} target={currentImage.target} rel={currentImage.rel}>
+          <img src={currentImage.src} alt={currentImage.alt} />
+        </a>
         <div className="slideshow-buttons">
           <button onClick={handlePrevClick}>Prev</button>
           <button onClick={handleNextClick}>Next</button>

@@ -5,73 +5,86 @@
     text-decoration: none;
     }
 
+.navbar .nav-links>a{
+    color: var(--color-tan);
+    text-decoration: none;
+    line-height: 20px;
+    justify-content: space-evenly;
+  }
+
+  .navbar .nav-links>a:hover {
+    color: #FFFFFF;
+  }
+  
+  .navbar .nav-links>a:active {
+    color: var(--color-sage);
+  }
+
 .ll__navbar {
     background-color: #000000;
     color: #FFFFFF;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 2rem 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     z-index: 9999;
 }
 
 .ll__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
-    color: #FFFFFF;
+    color: var(--color-peach);
+    font-family: var(--font-family2);
+    justify-content: space-evenly;
 }
 
-.ll__navbar-links_logo {
-    margin-right: 2rem;
+.ll__navbar-links h1 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
 }
 
 .ll__navbar-links_logo img {
-    width: 190.35px;
-    height: 52px;
+    height: 100px;
 }
 
 .ll__navbar-links_container {
     display: flex;
     flex-direction: row;
-    margin-left: 2rem;
     background-color: #000000;
-    color: #FFFFFF;
+}
+
+.ll__navbar-links_container ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 5px;
 }
 
 .ll__navbar-links_container p,
 .ll__navbar-menusys_container p {
-    color: #FFFFFF;
-    font-family: var(--font-family2);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21.04px;
-    margin: 0 1rem;
     cursor: pointer;
 }
 
 .ll__navbar-menusys {
-    margin-left: 1rem;
     display: none;
 }
 
 .ll__navbar-menusys svg {
     cursor: pointer;
     z-index: 9999;
-    right: 2rem;
+    margin-right: .5rem;
+    margin-top: -42px;
+    color: var(--color-tan);
 }
 
 .ll__navbar-menusys_container {
     display: flex;
     flex-direction: column;
     background-color: #000000;
-    color:#FFFFFF;
     z-index: 9998;
-    position: fixed;
     top: 15px; /* adjust as needed */
-    left: 4rem;
-    right: 2rem;
 }
 
 .ll__navbar-menusys_container-links ul{
@@ -79,14 +92,12 @@
     flex-direction: column;
     background-color: #000000;
     color: #FFFFFF;
-    position: absolute;
-    top: .2rem;
-    margin-top: 1rem;
-    min-width: 160px;
+    margin-top: 20px;
+    min-width: 90px;
     align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
     .ll__navbar {
         padding: 2rem;
     }
@@ -104,7 +115,9 @@
     .ll__navbar-menusys svg {
         cursor: pointer;
         z-index: 9999;
-        right: 2rem;
+        margin-left: .5rem;
+        right: .5rem;
+        position: fixed;
     }
     .ll__navbar-menusys_container {
         display: flex;
@@ -113,11 +126,8 @@
         color:#FFFFFF;
         z-index: 9998;
         position: fixed;
-        top: 15px; /* adjust as needed */
-        left: 12rem;
-        right: 2rem;
+        top: 2px; /* adjust as needed */
     }
-
 }
 
 @media screen and (max-width:700px) {
@@ -127,7 +137,9 @@
     .ll__navbar-menusys svg {
         cursor: pointer;
         z-index: 9999;
-        right: 2rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        position: fixed;
     }
     .ll__navbar-menusys_container {
         display: flex;
@@ -136,20 +148,22 @@
         color:#FFFFFF;
         z-index: 9998;
         position: fixed;
-        top: 15px; /* adjust as needed */
-        left: 16rem;
-        right: 2rem;
+        top: 2px; /* adjust as needed */
     }
 }
 
 @media screen and (max-width: 550px) {
     .ll__navbar {
-        padding: 2rem;
+        padding: 1rem;
+        padding-left: 10px;
+        padding-top: 10px;
     }
     .ll__navbar-menusys svg {
         cursor: pointer;
         z-index: 9999;
-        right: 2rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        position: fixed;
     }
     .ll__navbar-menusys_container {
         display: flex;
@@ -158,8 +172,42 @@
         color:#FFFFFF;
         z-index: 9998;
         position: fixed;
-        top: 15px; /* adjust as needed */
-        left: 20rem;
-        right: 2rem;
+        top: 2px; /* adjust as needed */
+    }
+
+    .ll__navbar-links h1 {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .ll__navbar {
+        padding: 2rem;
+        padding-left: 1px;
+        padding-top: 10px;
+    }
+    .ll__navbar-menusys svg {
+        cursor: pointer;
+        z-index: 9999;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        position: fixed;
+    }
+    .ll__navbar-menusys_container {
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        color:#FFFFFF;
+        z-index: 9998;
+        position: fixed;
+        top: 2px; /* adjust as needed */
+    }
+
+    .ll__navbar-links h1 {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
     }
 }
