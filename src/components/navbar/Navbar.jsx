@@ -8,15 +8,15 @@ const Navbar = () => {
   const [toggleMenusys, setToggleMenusys] = useState(false);
 
   return (
-    <div className="ll__navbar">
-      <div className="ll__navbar-links">
-        <div className="ll__navbar-links_logo">
+    <div className="ah__navbar">
+      <div className="ah__navbar-links">
+        <div className="ah__navbar-links_logo">
           <img src={logo} alt="Angelia" />
         </div>
-        <div className="my_name">
+        <div className="ah__navbar-name">
           <h6>Angelia Horne</h6>
         </div>
-        <nav className="ll__navbar-links_container">
+        <nav className="ah__navbar-links_container">
           <div className="navbar">
             <ul className="nav-links">
               <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
@@ -26,7 +26,7 @@ const Navbar = () => {
             </ul>
           </div>
         </nav>
-        <div className="ll__navbar-menusys">
+        <div className="ah__navbar-menusys">
           {toggleMenusys ? (
             <RiCloseLine
               color="#BF9D7D"
@@ -41,8 +41,8 @@ const Navbar = () => {
             />
           )}
           {toggleMenusys && (
-            <div className="ll__navbar-menusys_container scale-up-center">
-              <div className="ll__navbar-menusys_container-links">
+            <div className="ah__navbar-menusys_container scale-up-center">
+              <div className="ah__navbar-menusys_container-links">
                 <div className="navbar">
                   <ul className="nav-links">
                     <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
