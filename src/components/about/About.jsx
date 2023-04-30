@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import logo from '../../assets/logo.png';
+import sidegraphic from '../../assets/sideimage.png';
 
 const About = () => {
   return (
@@ -27,7 +27,7 @@ const About = () => {
         </p>
       </div>
       <div>
-        <img src={logo} alt="Angelia Horne Logo"/>
+        <img src={sidegraphic} alt="Side Image"/>
       </div>
     </div>
   )
