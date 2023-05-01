@@ -5,7 +5,6 @@ import rustic from '../../assets/thumbs/rusticrootslogo1.png';
 import luxxe from '../../assets/thumbs/Luxxe.png';
 import batty from '../../assets/thumbs/bblogo1.png';
 import artbeat from '../../assets/thumbs/artbeat.png';
-import Certs from '../../components/certs/Certs';
 
 
 function Apps() {
@@ -20,7 +19,7 @@ function Apps() {
     },
     {
       src: rustic,
-      link: "#",
+      link: "https://angelia.seedofchaos.com/portfolio/apps/rustic-roots",
       target: "_blank",
       rel: "noreferrer",
       alt: "Rustic Roots",
