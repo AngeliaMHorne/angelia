@@ -5,6 +5,7 @@ import rustic from '../../assets/thumbs/rusticrootslogo1.png';
 import luxxe from '../../assets/thumbs/Luxxe.png';
 import batty from '../../assets/thumbs/bblogo1.png';
 import artbeat from '../../assets/thumbs/artbeat.png';
+import shapeshifter from '../../assets/thumbs/shapeshifter.png';
 
 
 function Apps() {
@@ -44,6 +45,13 @@ function Apps() {
       target: "_blank",
       rel: "noreferrer",
       alt: "ArtBeat",
+    },
+    {
+      src: shapeshifter,
+      link: "#",
+      target: "_blank",
+      rel: "noreferrer",
+      alt: "ShapeShifter",
     },
   ];
 

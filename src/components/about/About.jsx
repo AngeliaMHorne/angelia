@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import sidegraphic from '../../assets/sideimage.png';
+import Certs from '../certs/Certs';
 
 const About = () => {
   return (
@@ -26,7 +27,7 @@ const About = () => {
         <p>Overall, my diverse hobbies showcase my willingness to take on new challenges, expand my knowledge base, and learn and grow as an individual.
         </p>
       </div>
-      <div>
+      <div className="side-image">
         <img src={sidegraphic} alt="Side Image"/>
       </div>
     </div>
